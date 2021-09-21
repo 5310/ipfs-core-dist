@@ -14,3 +14,5 @@ Notes:
 - The version number for this package is set to the most recent `ipfs-core `version I have personally used it with
   - However, it should work with future versions as well as all it does is reexport its own bundle with types
 - The dependency version for `ipfs-core` is currently set to `0.x`
+- This shim will still fail on Deno when used through [Skypack](https://cdn.skypack.dev/@scio/ipfs-core-dist?dts) due to the many Node specific imports on `ipfs-core`
+  - Not that Deno can run IPFS yet since it [doesn't have IndexedDB](https://github.com/denoland/deno/issues/1699) right now
