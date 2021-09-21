@@ -1,6 +1,6 @@
 # ipfs-core-dist
 
-![npm](https://img.shields.io/npm/v/scio/ipfs-core-dist)
+[![npm (scoped)](https://img.shields.io/npm/v/@scio/ipfs-core-dist)](https://www.npmjs.com/package/@scio/ipfs-core-dist)
 
 The NPM packages [`ipfs`](https://www.npmjs.com/package/ipfs) and [`ipfs-core`](https://www.npmjs.com/package/ipfs-core) both have TypeScript typings now, but because they're still not ESM capable and only ship Node code by default, modern toolchains like [Snowpack](https://www.snowpack.dev/) or [Vite](https://vitejs.dev/) try to import it directly into the browser which fails because of all sorts of dependency related complications.
 
