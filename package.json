@@ -8,7 +8,7 @@
   "types": "./index.d.ts",
   "scripts": {
     "build": "tsc",
-    "publish": "npm publish --access public"
+    "publish_": "npm publish --access public"
   },
   "dependencies": {
     "ipfs-core": "0.x"
