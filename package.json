@@ -3,7 +3,7 @@
   "description": "This module reexports the Js-IPFS browser bundle with its annotated types",
   "license": "(Apache-2.0 OR MIT)",
   "repository": "github:5310/ipfs-core-dist",
-  "version": "0.10.9",
+  "version": "0.10.9.1",
   "exports": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
