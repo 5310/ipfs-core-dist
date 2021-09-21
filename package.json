@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "name": "ipfs-core-dist",
+  "name": "@scio/ipfs-core-dist",
   "description": "This module reexports the Js-IPFS browser bundle with its annotated types",
   "license": "Unlicense",
   "repository": "github:5310/ipfs-core-dist",
